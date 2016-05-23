@@ -1,0 +1,13 @@
+Install of Metadata for python 2.7
+
+pip install pyacoustid: # Used for Acoustid API, which gets the metadata
+
+Download ffmpeg: from https://www.ffmpeg.org/ as tar.gz # ffmpeg is used to record the music
+
+Install yasm: Sudo apt-get install yasm. This is in order to install ffmpeg
+
+Extract and cd into ffmpeg
+
+Configure, make and install ffmpeg via ./configure && make && install
+
+sudo apt-get install libchromaprint-tools # this installs ChromaPrint for audio fingerprinting
